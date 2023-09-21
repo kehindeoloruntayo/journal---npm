@@ -3,9 +3,9 @@ import Entry from './js/journal.js';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-// import Background from './assets/img/cover.jpg';
+import Logo from './assets/img/journal.jpg';
 
-// $("img").attr("src", Background)
+$("link").attr("href", Logo)
 $("#submitEntry").click(() => {
     const title = $("#title").val();
     const body = $("#body").val();
